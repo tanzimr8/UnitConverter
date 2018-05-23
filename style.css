@@ -1,0 +1,107 @@
+#buddy{
+	background-color: #333;
+	color: #fff;
+	font-family: Atma;
+}
+.middle{
+	text-align: center;
+	
+}
+.button{
+	width: 20%;
+	padding: 24px 28px;
+	background-color:#ddd;
+	border-radius: 4px;
+	border: 1px solid #555;
+	color: #000;
+	text-align: cenetr;
+	margin-left: -3px;
+}
+#headline{
+	text-align: center;
+	
+	margin-top: 50px;
+	margin-bottom: 80px;
+	text-transform: uppercase;
+}
+#awesome{
+	
+	font-size: 40px;
+	color: red;
+}
+b{
+	text-align: center;
+}
+
+
+input{
+	padding: 24px;
+	width: 60%;	
+}
+input[type=number]{
+	color: #555;
+	border-radius: 4px;
+	border: 1px solid #555;
+	
+}
+
+label{
+	
+	font-size: 18px;
+	border: ;
+	padding: 24px;
+	background-color:#ddd;
+	color: #333; 
+	text-align: cenetr;
+	margin-left: -3px;
+}
+
+
+::placeholder {
+    color: #333;
+    opacity: 0.5;
+    font-style: italic; /* Firefox */
+}
+
+.output-1{
+	border:2px solid #000;
+	padding: 24px;
+	width: 100%;
+	background-color: #fff;
+	color: #555;
+	letter-spacing: 0.3em;
+
+
+}
+.output-2{
+	border-left: 2px solid #000;
+	border-right: 2px solid #000;
+	border-bottom: 2px solid #000;
+	padding: 24px;
+	width: 100%;
+	background-color: #fff;
+	color: #555;
+	
+	
+}
+#sub-row{
+	
+	margin-bottom: 15px;
+	overflow: hidden;
+}
+.footer{
+	background-color: #fff;
+	color: #555;
+	padding: 20px;
+	text-align: center;
+	margi-bottom: -70px;
+}
+h3{
+	opacity: 0.8;
+}
+h3 a{
+	color: #bbff33;
+}
+h3 a:hover{
+	color: #bbff33;
+}

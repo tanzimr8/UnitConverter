@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Converter</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>	<!-- Latest compiled JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<link href='https://fonts.googleapis.com/css?family=Atma' rel='stylesheet'>
+</head>
+<body id="buddy" onload="animate()" >
+	<div class="container">
+		<div class="row" id="row-id">
+			<div class="col-md-12 col-sm-12 middle">
+				<h1 id="headline">Distance Units </h1>
+				<b class="fa" id="awesome"></b>
+			</div>
+		
+			<div class="col-md-6 col-sm-6 middle">
+				<div class="form-group">
+					
+					<input type="number" id="input1" placeholder="Enter Number">
+					<button class="button" onclick="">INCH</button>
+					<!--<label for="inch">Inch</label> -->
+
+				</div>
+
+				<div class="form-group">
+					<input type="number" id="input2" placeholder="Enter Number">
+					<button class="button" onclick="">FOOT</button>
+					<!--<label for="inch">Inch</label> -->
+				</div>
+
+				<div class="form-group">				
+					<input type="number" id="input3" placeholder="Enter Number">
+					<button class="button" onclick="">METER</button>
+					<!--<label for="inch">Inch</label> -->
+				</div>
+
+			</div>
+
+			<div class="col-md-6 col-sm-6 middle">
+				<div class="row" id="sub-row">
+					<div class="col-md-6">
+						<div class="output-1" id="op-inchTofoot">FOOT</div> 					
+					</div>
+
+					<div class="col-md-6">
+						<div class="output-2" id="op-inchToMeter">METER</div> 
+					</div>
+
+				</div>
+
+				<div class="row" id="sub-row">
+					<div class="col-md-6 col-sm-6">
+						<div class="output-1" id="op-footToInch">INCH</div> 
+						
+					</div>
+					<div class="col-md-6 col-sm-6">
+						<div class="output-2" id="op-footToMeter">METER</div> 
+					</div>
+				</div>
+				<div class="row" id="sub-row">
+					<div class="col-md-6 col-sm-6">
+						<div class="output-1" id="op-meterToFoot">FOOT</div> 
+						
+					</div>
+					<div class="col-md-6 col-sm-6">
+						<div class="output-2" id="op-meterToInch">INCH</div> 
+					</div>
+				</div>
+			</div>
+	</div>
+	<h3 align="center">Inspiration from <a href="https://www.youtube.com/watch?v=7l-ZAuU8TXc&list=PLillGF-RfqbbnEGy3ROiLWk7JMCuSyQtX&index=4" target="_blank">"Weight Converter"</a> by Traversy Media</h3>
+</div>
+
+
+
+
+
+
+</body>
+</html>
